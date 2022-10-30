@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "highest-available-document-mode": "off",
+    "css-prefix-order": "off",
+    "button-type": "off"
+  }
+}

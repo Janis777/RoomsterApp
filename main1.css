@@ -1,0 +1,99 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    position: relative;
+    top: -7.5rem;
+    text-align: center;
+    color: white;
+    font-size: 10vw 10vmin;
+}
+
+/* Style WeiterButton */
+.Regeln {
+    position: relative;
+    top: -5.5rem;
+    background-color: #4e54c8;
+    border: white 0.2rem solid;
+    display: inline-block;
+    padding: .5vw 1.5vw;
+    border-radius: 3.5rem;
+    box-sizing: border-box;
+    color: white; /* White text */
+    font-size: 2vw 3vmin;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.Regeln:hover {
+    background-color: white;
+    color: #4e54c8;
+    border: #4e54c8 0.2rem solid;
+}
+
+/* Style WeiterButton */
+.Hilfe {
+    position: relative;
+    top: -5.5rem;
+    background-color: #4e54c8;
+    border: white 0.2rem solid;
+    display: inline-block;
+    padding: .5vw 1.5vw;
+    border-radius: 3.5rem;
+    box-sizing: border-box;
+    /* box-shadow: 0.4rem 0.4rem 2rem white; */
+    color: white; /* White text */
+    font-size: 2vw 3vmin;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.Hilfe:hover {
+    background-color: white;
+    color: #4e54c8;
+    border: #4e54c8 0.2rem solid;
+}
+
+.grid-item {
+    position: relative;
+    bottom: 5rem;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 2vw 3vmin;
+
+}
+
+/* Style WeiterButton */
+.WeiterButton {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 1rem;
+    background-color: white;
+    border: #4e54c8 0.2rem solid;
+    display: inline-block;
+    padding: .5vw 1.5vw;
+    border-radius: 3.5rem;
+    box-sizing: border-box;
+    color: #4e54c8; /* White text */
+    font-size: 2vw 3vmin;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.WeiterButton:hover {
+    background-color: #4e54c8;
+    color: white;
+    border: white 0.2rem solid;
+}
+
+.Credit {
+    position: relative;
+    top: 7.5rem;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 2vw 3vmin;
+}

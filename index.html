@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add Google Font Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Include local CSS and JavaScript Files -->
+    <link rel="stylesheet" href="background1.css">
+    <link rel="stylesheet" href="main1.css">
+    <script src="collection.js"></script>
+
+    <title>🌐 ROOMSTER</title>
+</head>
+
+<body>
+
+    <!-- Backgroud -->
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <div class="content">
+
+        <div class="container-fluid p-5 text-white text-center">
+
+            <h1>ROOMSTER</h1>
+
+            <button class="Regeln" id="rules" onclick="openRules()">RULES</button>
+
+            <button class="Hilfe" onclick="openHelp()">ABOUT</button>
+
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="grid-item" id="Content">
+                        <!-- Content will display here -->
+                    </div>
+
+                    <br>
+
+                    <div class="grid-button">
+                        <button class="WeiterButton" onclick="newContent()">PLAY</button>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="Credit">
+                        <!-- Add Paragraph with Credits -->
+                        <p class="credits">POWERED BY JUSTANOTHERNERD</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
